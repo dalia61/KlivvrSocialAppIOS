@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C07F2A5AF64700B4402F /* AppDelegate.swift */; };
+		03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0812A5AF64700B4402F /* SceneDelegate.swift */; };
+		03E0C0842A5AF64700B4402F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0832A5AF64700B4402F /* ViewController.swift */; };
+		03E0C0872A5AF64700B4402F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C0852A5AF64700B4402F /* Main.storyboard */; };
+		03E0C08A2A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */; };
+		03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08B2A5AF64900B4402F /* Assets.xcassets */; };
+		03E0C08F2A5AF64900B4402F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */; };
+		03E0C09A2A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0992A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift */; };
+		03E0C0A42A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */; };
+		03E0C0A62A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E0C0962A5AF64A00B4402F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E0C0742A5AF64600B4402F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E0C07B2A5AF64600B4402F;
+			remoteInfo = KlivvrSocialAppIOS;
+		};
+		03E0C0A02A5AF64A00B4402F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E0C0742A5AF64600B4402F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E0C07B2A5AF64600B4402F;
+			remoteInfo = KlivvrSocialAppIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E0C07C2A5AF64700B4402F /* KlivvrSocialAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlivvrSocialAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0C07F2A5AF64700B4402F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E0C0812A5AF64700B4402F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03E0C0832A5AF64700B4402F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E0C0862A5AF64700B4402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KlivvrSocialAppIOS.xcdatamodel; sourceTree = "<group>"; };
+		03E0C08B2A5AF64900B4402F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E0C08E2A5AF64900B4402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E0C0902A5AF64900B4402F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E0C0952A5AF64A00B4402F /* KlivvrSocialAppIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlivvrSocialAppIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0C0992A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSTests.swift; sourceTree = "<group>"; };
+		03E0C09F2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlivvrSocialAppIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITests.swift; sourceTree = "<group>"; };
+		03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E0C0792A5AF64600B4402F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0C0922A5AF64A00B4402F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0C09C2A5AF64A00B4402F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E0C0732A5AF64600B4402F = {
+			isa = PBXGroup;
+			children = (
+				03E0C07E2A5AF64700B4402F /* KlivvrSocialAppIOS */,
+				03E0C0982A5AF64A00B4402F /* KlivvrSocialAppIOSTests */,
+				03E0C0A22A5AF64A00B4402F /* KlivvrSocialAppIOSUITests */,
+				03E0C07D2A5AF64700B4402F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E0C07D2A5AF64700B4402F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C07C2A5AF64700B4402F /* KlivvrSocialAppIOS.app */,
+				03E0C0952A5AF64A00B4402F /* KlivvrSocialAppIOSTests.xctest */,
+				03E0C09F2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E0C07E2A5AF64700B4402F /* KlivvrSocialAppIOS */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C0B42A5AF6DD00B4402F /* Presenter */,
+				03E0C0B32A5AF6D500B4402F /* View */,
+				03E0C0B22A5AF6CE00B4402F /* Model */,
+				03E0C07F2A5AF64700B4402F /* AppDelegate.swift */,
+				03E0C0812A5AF64700B4402F /* SceneDelegate.swift */,
+				03E0C0832A5AF64700B4402F /* ViewController.swift */,
+				03E0C0852A5AF64700B4402F /* Main.storyboard */,
+				03E0C08B2A5AF64900B4402F /* Assets.xcassets */,
+				03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */,
+				03E0C0902A5AF64900B4402F /* Info.plist */,
+				03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */,
+			);
+			path = KlivvrSocialAppIOS;
+			sourceTree = "<group>";
+		};
+		03E0C0982A5AF64A00B4402F /* KlivvrSocialAppIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C0992A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift */,
+			);
+			path = KlivvrSocialAppIOSTests;
+			sourceTree = "<group>";
+		};
+		03E0C0A22A5AF64A00B4402F /* KlivvrSocialAppIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */,
+				03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */,
+			);
+			path = KlivvrSocialAppIOSUITests;
+			sourceTree = "<group>";
+		};
+		03E0C0B22A5AF6CE00B4402F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03E0C0B32A5AF6D500B4402F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03E0C0B42A5AF6DD00B4402F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E0C07B2A5AF64600B4402F /* KlivvrSocialAppIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0C0A92A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOS" */;
+			buildPhases = (
+				03E0C0782A5AF64600B4402F /* Sources */,
+				03E0C0792A5AF64600B4402F /* Frameworks */,
+				03E0C07A2A5AF64600B4402F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KlivvrSocialAppIOS;
+			productName = KlivvrSocialAppIOS;
+			productReference = 03E0C07C2A5AF64700B4402F /* KlivvrSocialAppIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E0C0942A5AF64A00B4402F /* KlivvrSocialAppIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0C0AC2A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOSTests" */;
+			buildPhases = (
+				03E0C0912A5AF64A00B4402F /* Sources */,
+				03E0C0922A5AF64A00B4402F /* Frameworks */,
+				03E0C0932A5AF64A00B4402F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E0C0972A5AF64A00B4402F /* PBXTargetDependency */,
+			);
+			name = KlivvrSocialAppIOSTests;
+			productName = KlivvrSocialAppIOSTests;
+			productReference = 03E0C0952A5AF64A00B4402F /* KlivvrSocialAppIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03E0C09E2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0C0AF2A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOSUITests" */;
+			buildPhases = (
+				03E0C09B2A5AF64A00B4402F /* Sources */,
+				03E0C09C2A5AF64A00B4402F /* Frameworks */,
+				03E0C09D2A5AF64A00B4402F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E0C0A12A5AF64A00B4402F /* PBXTargetDependency */,
+			);
+			name = KlivvrSocialAppIOSUITests;
+			productName = KlivvrSocialAppIOSUITests;
+			productReference = 03E0C09F2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E0C0742A5AF64600B4402F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					03E0C07B2A5AF64600B4402F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03E0C0942A5AF64A00B4402F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03E0C07B2A5AF64600B4402F;
+					};
+					03E0C09E2A5AF64A00B4402F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 03E0C07B2A5AF64600B4402F;
+					};
+				};
+			};
+			buildConfigurationList = 03E0C0772A5AF64600B4402F /* Build configuration list for PBXProject "KlivvrSocialAppIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E0C0732A5AF64600B4402F;
+			productRefGroup = 03E0C07D2A5AF64700B4402F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E0C07B2A5AF64600B4402F /* KlivvrSocialAppIOS */,
+				03E0C0942A5AF64A00B4402F /* KlivvrSocialAppIOSTests */,
+				03E0C09E2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E0C07A2A5AF64600B4402F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0C08F2A5AF64900B4402F /* LaunchScreen.storyboard in Resources */,
+				03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */,
+				03E0C0872A5AF64700B4402F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0C0932A5AF64A00B4402F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0C09D2A5AF64A00B4402F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E0C0782A5AF64600B4402F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0C08A2A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld in Sources */,
+				03E0C0842A5AF64700B4402F /* ViewController.swift in Sources */,
+				03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */,
+				03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0C0912A5AF64A00B4402F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0C09A2A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0C09B2A5AF64A00B4402F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0C0A42A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift in Sources */,
+				03E0C0A62A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E0C0972A5AF64A00B4402F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E0C07B2A5AF64600B4402F /* KlivvrSocialAppIOS */;
+			targetProxy = 03E0C0962A5AF64A00B4402F /* PBXContainerItemProxy */;
+		};
+		03E0C0A12A5AF64A00B4402F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E0C07B2A5AF64600B4402F /* KlivvrSocialAppIOS */;
+			targetProxy = 03E0C0A02A5AF64A00B4402F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E0C0852A5AF64700B4402F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E0C0862A5AF64700B4402F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E0C08E2A5AF64900B4402F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E0C0A72A5AF64A00B4402F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E0C0A82A5AF64A00B4402F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E0C0AA2A5AF64A00B4402F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KlivvrSocialAppIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITI.KlivvrSocialAppIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03E0C0AB2A5AF64A00B4402F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KlivvrSocialAppIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITI.KlivvrSocialAppIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03E0C0AD2A5AF64A00B4402F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITI.KlivvrSocialAppIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlivvrSocialAppIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KlivvrSocialAppIOS";
+			};
+			name = Debug;
+		};
+		03E0C0AE2A5AF64A00B4402F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITI.KlivvrSocialAppIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlivvrSocialAppIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KlivvrSocialAppIOS";
+			};
+			name = Release;
+		};
+		03E0C0B02A5AF64A00B4402F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITI.KlivvrSocialAppIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KlivvrSocialAppIOS;
+			};
+			name = Debug;
+		};
+		03E0C0B12A5AF64A00B4402F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ITI.KlivvrSocialAppIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KlivvrSocialAppIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E0C0772A5AF64600B4402F /* Build configuration list for PBXProject "KlivvrSocialAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0C0A72A5AF64A00B4402F /* Debug */,
+				03E0C0A82A5AF64A00B4402F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0C0A92A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0C0AA2A5AF64A00B4402F /* Debug */,
+				03E0C0AB2A5AF64A00B4402F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0C0AC2A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0C0AD2A5AF64A00B4402F /* Debug */,
+				03E0C0AE2A5AF64A00B4402F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0C0AF2A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0C0B02A5AF64A00B4402F /* Debug */,
+				03E0C0B12A5AF64A00B4402F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */,
+			);
+			currentVersion = 03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */;
+			path = KlivvrSocialAppIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03E0C0742A5AF64600B4402F /* Project object */;
+}
