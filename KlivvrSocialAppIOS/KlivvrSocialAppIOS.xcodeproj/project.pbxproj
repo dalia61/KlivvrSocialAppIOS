@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C07F2A5AF64700B4402F /* AppDelegate.swift */; };
 		03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0812A5AF64700B4402F /* SceneDelegate.swift */; };
-		03E0C0842A5AF64700B4402F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0832A5AF64700B4402F /* ViewController.swift */; };
-		03E0C0872A5AF64700B4402F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C0852A5AF64700B4402F /* Main.storyboard */; };
 		03E0C08A2A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */; };
 		03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08B2A5AF64900B4402F /* Assets.xcassets */; };
 		03E0C08F2A5AF64900B4402F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */; };
@@ -40,8 +38,6 @@
 		03E0C07C2A5AF64700B4402F /* KlivvrSocialAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlivvrSocialAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0C07F2A5AF64700B4402F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E0C0812A5AF64700B4402F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03E0C0832A5AF64700B4402F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03E0C0862A5AF64700B4402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KlivvrSocialAppIOS.xcdatamodel; sourceTree = "<group>"; };
 		03E0C08B2A5AF64900B4402F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E0C08E2A5AF64900B4402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +74,217 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0392C5742A5C131A002E5684 /* KlivvrFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				0392C5772A5C1371002E5684 /* Components */,
+			);
+			path = KlivvrFoundation;
+			sourceTree = "<group>";
+		};
+		0392C5772A5C1371002E5684 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0392C5842A5C15CF002E5684 /* SupportingFiles */,
+				0392C5832A5C15B0002E5684 /* Resources */,
+				0392C57F2A5C1533002E5684 /* Externals   */,
+				0392C57C2A5C143F002E5684 /* Extension */,
+				0392C57B2A5C142D002E5684 /* Core */,
+				0392C57A2A5C1416002E5684 /* Configuration */,
+				0392C5782A5C13E3002E5684 /* KlivvrButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0392C5782A5C13E3002E5684 /* KlivvrButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KlivvrButton;
+			sourceTree = "<group>";
+		};
+		0392C57A2A5C1416002E5684 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C0902A5AF64900B4402F /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		0392C57B2A5C142D002E5684 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C0812A5AF64700B4402F /* SceneDelegate.swift */,
+				03E0C07F2A5AF64700B4402F /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0392C57C2A5C143F002E5684 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0392C57E2A5C14EF002E5684 /*  Utils */,
+				0392C57D2A5C14D3002E5684 /* Ui */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0392C57D2A5C14D3002E5684 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		0392C57E2A5C14EF002E5684 /*  Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = " Utils";
+			sourceTree = "<group>";
+		};
+		0392C57F2A5C1533002E5684 /* Externals   */ = {
+			isa = PBXGroup;
+			children = (
+				0392C5822A5C1588002E5684 /* DataNetwork */,
+				0392C5812A5C1584002E5684 /* DataManager */,
+				0392C5802A5C1574002E5684 /* Coordinator */,
+			);
+			path = "Externals  ";
+			sourceTree = "<group>";
+		};
+		0392C5802A5C1574002E5684 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0392C5812A5C1584002E5684 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		0392C5822A5C1588002E5684 /* DataNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataNetwork;
+			sourceTree = "<group>";
+		};
+		0392C5832A5C15B0002E5684 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */,
+				03E0C08B2A5AF64900B4402F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0392C5842A5C15CF002E5684 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0392C5852A5C15D5002E5684 /* Helper */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0392C5852A5C15D5002E5684 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0392C5862A5C15F6002E5684 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0392C5872A5C1648002E5684 /* Launch */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0392C5872A5C1648002E5684 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				0392C5882A5C1682002E5684 /* OnBoarding */,
+				0392C5892A5C169A002E5684 /* Authentication */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		0392C5882A5C1682002E5684 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		0392C5892A5C169A002E5684 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0392C58F2A5C16FA002E5684 /* Home */,
+				0392C5902A5C16FF002E5684 /* Profile */,
+				0392C58E2A5C16F4002E5684 /* Register */,
+				0392C58A2A5C16B1002E5684 /* Login */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0392C58A2A5C16B1002E5684 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0392C58D2A5C16CA002E5684 /* Presenter */,
+				0392C58C2A5C16C1002E5684 /* View */,
+				0392C58B2A5C16B8002E5684 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0392C58B2A5C16B8002E5684 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0392C58C2A5C16C1002E5684 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0392C58D2A5C16CA002E5684 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0392C58E2A5C16F4002E5684 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		0392C58F2A5C16FA002E5684 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0392C5902A5C16FF002E5684 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		03E0C0732A5AF64600B4402F = {
 			isa = PBXGroup;
 			children = (
@@ -101,16 +308,8 @@
 		03E0C07E2A5AF64700B4402F /* KlivvrSocialAppIOS */ = {
 			isa = PBXGroup;
 			children = (
-				03E0C0B42A5AF6DD00B4402F /* Presenter */,
-				03E0C0B32A5AF6D500B4402F /* View */,
-				03E0C0B22A5AF6CE00B4402F /* Model */,
-				03E0C07F2A5AF64700B4402F /* AppDelegate.swift */,
-				03E0C0812A5AF64700B4402F /* SceneDelegate.swift */,
-				03E0C0832A5AF64700B4402F /* ViewController.swift */,
-				03E0C0852A5AF64700B4402F /* Main.storyboard */,
-				03E0C08B2A5AF64900B4402F /* Assets.xcassets */,
-				03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */,
-				03E0C0902A5AF64900B4402F /* Info.plist */,
+				0392C5742A5C131A002E5684 /* KlivvrFoundation */,
+				0392C5862A5C15F6002E5684 /* Modules */,
 				03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */,
 			);
 			path = KlivvrSocialAppIOS;
@@ -131,27 +330,6 @@
 				03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */,
 			);
 			path = KlivvrSocialAppIOSUITests;
-			sourceTree = "<group>";
-		};
-		03E0C0B22A5AF6CE00B4402F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		03E0C0B32A5AF6D500B4402F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		03E0C0B42A5AF6DD00B4402F /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +438,6 @@
 			files = (
 				03E0C08F2A5AF64900B4402F /* LaunchScreen.storyboard in Resources */,
 				03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */,
-				03E0C0872A5AF64700B4402F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +463,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E0C08A2A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld in Sources */,
-				03E0C0842A5AF64700B4402F /* ViewController.swift in Sources */,
 				03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */,
 				03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */,
 			);
@@ -325,14 +501,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03E0C0852A5AF64700B4402F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03E0C0862A5AF64700B4402F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -466,10 +634,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KlivvrSocialAppIOS/Info.plist;
+				INFOPLIST_FILE = KlivvrSocialAppIOS/KlivvrFoundation/Components/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,10 +661,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KlivvrSocialAppIOS/Info.plist;
+				INFOPLIST_FILE = KlivvrSocialAppIOS/KlivvrFoundation/Components/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
