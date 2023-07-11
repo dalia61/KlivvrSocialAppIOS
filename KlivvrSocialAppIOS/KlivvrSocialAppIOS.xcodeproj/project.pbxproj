@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C07F2A5AF64700B4402F /* AppDelegate.swift */; };
 		03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0812A5AF64700B4402F /* SceneDelegate.swift */; };
-		03E0C08A2A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */; };
 		03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08B2A5AF64900B4402F /* Assets.xcassets */; };
 		03E0C08F2A5AF64900B4402F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08D2A5AF64900B4402F /* LaunchScreen.storyboard */; };
 		03E0C09A2A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0992A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift */; };
@@ -38,7 +37,6 @@
 		03E0C07C2A5AF64700B4402F /* KlivvrSocialAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlivvrSocialAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0C07F2A5AF64700B4402F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E0C0812A5AF64700B4402F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KlivvrSocialAppIOS.xcdatamodel; sourceTree = "<group>"; };
 		03E0C08B2A5AF64900B4402F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E0C08E2A5AF64900B4402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E0C0902A5AF64900B4402F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -310,7 +308,6 @@
 			children = (
 				0392C5742A5C131A002E5684 /* KlivvrFoundation */,
 				0392C5862A5C15F6002E5684 /* Modules */,
-				03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */,
 			);
 			path = KlivvrSocialAppIOS;
 			sourceTree = "<group>";
@@ -462,7 +459,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E0C08A2A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld in Sources */,
 				03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */,
 				03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */,
 			);
@@ -792,19 +788,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		03E0C0882A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */,
-			);
-			currentVersion = 03E0C0892A5AF64700B4402F /* KlivvrSocialAppIOS.xcdatamodel */;
-			path = KlivvrSocialAppIOS.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 03E0C0742A5AF64600B4402F /* Project object */;
 }
