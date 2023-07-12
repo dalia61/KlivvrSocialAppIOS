@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035A6ABA2A5EB0470044EE11 /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A6AB92A5EB0470044EE11 /* Constatns.swift */; };
+		035A6ABC2A5EB24B0044EE11 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A6ABB2A5EB24B0044EE11 /* Endpoint.swift */; };
+		035A6ABE2A5EB31D0044EE11 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A6ABD2A5EB31D0044EE11 /* NetworkManager.swift */; };
+		035A6AC02A5EB3970044EE11 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A6ABF2A5EB3970044EE11 /* NetworkError.swift */; };
 		03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C07F2A5AF64700B4402F /* AppDelegate.swift */; };
 		03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0812A5AF64700B4402F /* SceneDelegate.swift */; };
 		03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0C08B2A5AF64900B4402F /* Assets.xcassets */; };
@@ -14,6 +18,9 @@
 		03E0C09A2A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0992A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift */; };
 		03E0C0A42A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */; };
 		03E0C0A62A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */; };
+		5D0D7BB2481E17375E74B3C1 /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63DDD5F797D750467BC741F /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework */; };
+		6F3F0D3ABA57579EF5C6D419 /* Pods_KlivvrSocialAppIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */; };
+		8A92C9A45C6F48C63B4AF286 /* Pods_KlivvrSocialAppIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035A6AB92A5EB0470044EE11 /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
+		035A6ABB2A5EB24B0044EE11 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		035A6ABD2A5EB31D0044EE11 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		035A6ABF2A5EB3970044EE11 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		03E0C07C2A5AF64700B4402F /* KlivvrSocialAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlivvrSocialAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0C07F2A5AF64700B4402F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E0C0812A5AF64700B4402F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +56,15 @@
 		03E0C09F2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlivvrSocialAppIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITests.swift; sourceTree = "<group>"; };
 		03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42B845C96475E5D9726DDFE3 /* Pods-KlivvrSocialAppIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOSTests/Pods-KlivvrSocialAppIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E2E1C4C9A2B6235CBE07DC /* Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86DC69D9D78A0E934F34B276 /* Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C8BBE492ADCE00399D7E23 /* Pods-KlivvrSocialAppIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOSTests.release.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOSTests/Pods-KlivvrSocialAppIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD6357643E745FE4479CBCE0 /* Pods-KlivvrSocialAppIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOS.release.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOS/Pods-KlivvrSocialAppIOS.release.xcconfig"; sourceTree = "<group>"; };
+		C952800AC79DBC2EBC67CED8 /* Pods-KlivvrSocialAppIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOS.debug.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOS/Pods-KlivvrSocialAppIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D63DDD5F797D750467BC741F /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A92C9A45C6F48C63B4AF286 /* Pods_KlivvrSocialAppIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3F0D3ABA57579EF5C6D419 /* Pods_KlivvrSocialAppIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0D7BB2481E17375E74B3C1 /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +191,10 @@
 		0392C5822A5C1588002E5684 /* DataNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				035A6AB92A5EB0470044EE11 /* Constatns.swift */,
+				035A6ABB2A5EB24B0044EE11 /* Endpoint.swift */,
+				035A6ABD2A5EB31D0044EE11 /* NetworkManager.swift */,
+				035A6ABF2A5EB3970044EE11 /* NetworkError.swift */,
 			);
 			path = DataNetwork;
 			sourceTree = "<group>";
@@ -290,6 +317,8 @@
 				03E0C0982A5AF64A00B4402F /* KlivvrSocialAppIOSTests */,
 				03E0C0A22A5AF64A00B4402F /* KlivvrSocialAppIOSUITests */,
 				03E0C07D2A5AF64700B4402F /* Products */,
+				B608B46A02286F9C009F884B /* Pods */,
+				68A7F1399E54E71E9034E04C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -329,6 +358,30 @@
 			path = KlivvrSocialAppIOSUITests;
 			sourceTree = "<group>";
 		};
+		68A7F1399E54E71E9034E04C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */,
+				D63DDD5F797D750467BC741F /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework */,
+				4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B608B46A02286F9C009F884B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C952800AC79DBC2EBC67CED8 /* Pods-KlivvrSocialAppIOS.debug.xcconfig */,
+				BD6357643E745FE4479CBCE0 /* Pods-KlivvrSocialAppIOS.release.xcconfig */,
+				86DC69D9D78A0E934F34B276 /* Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.debug.xcconfig */,
+				58E2E1C4C9A2B6235CBE07DC /* Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.release.xcconfig */,
+				42B845C96475E5D9726DDFE3 /* Pods-KlivvrSocialAppIOSTests.debug.xcconfig */,
+				A6C8BBE492ADCE00399D7E23 /* Pods-KlivvrSocialAppIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -336,9 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03E0C0A92A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOS" */;
 			buildPhases = (
+				3BD2FCE9F1D3C218C2D26B30 /* [CP] Check Pods Manifest.lock */,
 				03E0C0782A5AF64600B4402F /* Sources */,
 				03E0C0792A5AF64600B4402F /* Frameworks */,
 				03E0C07A2A5AF64600B4402F /* Resources */,
+				5153F19BAAD06A536B784012 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,6 +408,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03E0C0AC2A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOSTests" */;
 			buildPhases = (
+				2F2E28B8C6CEC7F1D9319BD3 /* [CP] Check Pods Manifest.lock */,
 				03E0C0912A5AF64A00B4402F /* Sources */,
 				03E0C0922A5AF64A00B4402F /* Frameworks */,
 				03E0C0932A5AF64A00B4402F /* Resources */,
@@ -371,9 +427,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03E0C0AF2A5AF64A00B4402F /* Build configuration list for PBXNativeTarget "KlivvrSocialAppIOSUITests" */;
 			buildPhases = (
+				35C8E3F0BDE61E52A781394F /* [CP] Check Pods Manifest.lock */,
 				03E0C09B2A5AF64A00B4402F /* Sources */,
 				03E0C09C2A5AF64A00B4402F /* Frameworks */,
 				03E0C09D2A5AF64A00B4402F /* Resources */,
+				7F92B6856AF61B15BFB6E3BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -454,12 +512,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F2E28B8C6CEC7F1D9319BD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KlivvrSocialAppIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35C8E3F0BDE61E52A781394F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD2FCE9F1D3C218C2D26B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KlivvrSocialAppIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5153F19BAAD06A536B784012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlivvrSocialAppIOS/Pods-KlivvrSocialAppIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlivvrSocialAppIOS/Pods-KlivvrSocialAppIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlivvrSocialAppIOS/Pods-KlivvrSocialAppIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F92B6856AF61B15BFB6E3BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests/Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03E0C0782A5AF64600B4402F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */,
+				035A6ABA2A5EB0470044EE11 /* Constatns.swift in Sources */,
+				035A6ABE2A5EB31D0044EE11 /* NetworkManager.swift in Sources */,
+				035A6AC02A5EB3970044EE11 /* NetworkError.swift in Sources */,
+				035A6ABC2A5EB24B0044EE11 /* Endpoint.swift in Sources */,
 				03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +789,7 @@
 		};
 		03E0C0AA2A5AF64A00B4402F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C952800AC79DBC2EBC67CED8 /* Pods-KlivvrSocialAppIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -651,6 +817,7 @@
 		};
 		03E0C0AB2A5AF64A00B4402F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6357643E745FE4479CBCE0 /* Pods-KlivvrSocialAppIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -678,6 +845,7 @@
 		};
 		03E0C0AD2A5AF64A00B4402F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B845C96475E5D9726DDFE3 /* Pods-KlivvrSocialAppIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -697,6 +865,7 @@
 		};
 		03E0C0AE2A5AF64A00B4402F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C8BBE492ADCE00399D7E23 /* Pods-KlivvrSocialAppIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -716,6 +885,7 @@
 		};
 		03E0C0B02A5AF64A00B4402F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DC69D9D78A0E934F34B276 /* Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -733,6 +903,7 @@
 		};
 		03E0C0B12A5AF64A00B4402F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E2E1C4C9A2B6235CBE07DC /* Pods-KlivvrSocialAppIOS-KlivvrSocialAppIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
