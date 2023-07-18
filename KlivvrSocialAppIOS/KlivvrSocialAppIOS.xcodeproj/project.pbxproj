@@ -19,6 +19,11 @@
 		03E0C0A42A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */; };
 		03E0C0A62A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */; };
 		2B3C48F32A669F820087202E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C48F22A669F820087202E /* AppCoordinator.swift */; };
+		2BE9771D2A66B67300780B8E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9771B2A66B67300780B8E /* OnboardingViewController.swift */; };
+		2BE9771E2A66B67300780B8E /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE9771C2A66B67300780B8E /* OnboardingViewController.xib */; };
+		2BE977202A66B6A800780B8E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9771F2A66B6A800780B8E /* OnboardingCoordinator.swift */; };
+		2BE977222A66B6CC00780B8E /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE977212A66B6CC00780B8E /* OnboardingPresenter.swift */; };
+		2BE977272A66B7F500780B8E /* OnboardingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE977262A66B7F500780B8E /* OnboardingProtocols.swift */; };
 		5D0D7BB2481E17375E74B3C1 /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63DDD5F797D750467BC741F /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework */; };
 		6F3F0D3ABA57579EF5C6D419 /* Pods_KlivvrSocialAppIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */; };
 		8A92C9A45C6F48C63B4AF286 /* Pods_KlivvrSocialAppIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */; };
@@ -58,6 +63,11 @@
 		03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITests.swift; sourceTree = "<group>"; };
 		03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B3C48F22A669F820087202E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2BE9771B2A66B67300780B8E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		2BE9771C2A66B67300780B8E /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		2BE9771F2A66B6A800780B8E /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		2BE977212A66B6CC00780B8E /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		2BE977262A66B7F500780B8E /* OnboardingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingProtocols.swift; sourceTree = "<group>"; };
 		42B845C96475E5D9726DDFE3 /* Pods-KlivvrSocialAppIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOSTests/Pods-KlivvrSocialAppIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,8 +287,37 @@
 		2B3C48F52A669FF30087202E /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				2BE977262A66B7F500780B8E /* OnboardingProtocols.swift */,
+				2BE977252A66B79A00780B8E /* Presenter */,
+				2BE977242A66B78100780B8E /* Coordinator */,
+				2BE977232A66B72E00780B8E /* View */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		2BE977232A66B72E00780B8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BE9771C2A66B67300780B8E /* OnboardingViewController.xib */,
+				2BE9771B2A66B67300780B8E /* OnboardingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BE977242A66B78100780B8E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2BE9771F2A66B6A800780B8E /* OnboardingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2BE977252A66B79A00780B8E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2BE977212A66B6CC00780B8E /* OnboardingPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		68A7F1399E54E71E9034E04C /* Frameworks */ = {
@@ -415,6 +454,7 @@
 			files = (
 				03E0C08F2A5AF64900B4402F /* LaunchScreen.storyboard in Resources */,
 				03E0C08C2A5AF64900B4402F /* Assets.xcassets in Resources */,
+				2BE9771E2A66B67300780B8E /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,8 +585,12 @@
 				03E0C0802A5AF64700B4402F /* AppDelegate.swift in Sources */,
 				035A6ABA2A5EB0470044EE11 /* Constatns.swift in Sources */,
 				035A6ABE2A5EB31D0044EE11 /* NetworkManager.swift in Sources */,
+				2BE977272A66B7F500780B8E /* OnboardingProtocols.swift in Sources */,
+				2BE9771D2A66B67300780B8E /* OnboardingViewController.swift in Sources */,
+				2BE977202A66B6A800780B8E /* OnboardingCoordinator.swift in Sources */,
 				035A6AC02A5EB3970044EE11 /* NetworkError.swift in Sources */,
 				035A6ABC2A5EB24B0044EE11 /* Endpoint.swift in Sources */,
+				2BE977222A66B6CC00780B8E /* OnboardingPresenter.swift in Sources */,
 				03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */,
 				2B3C48F32A669F820087202E /* AppCoordinator.swift in Sources */,
 			);
