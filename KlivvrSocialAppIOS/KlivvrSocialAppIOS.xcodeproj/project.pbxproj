@@ -18,6 +18,7 @@
 		03E0C09A2A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0992A5AF64A00B4402F /* KlivvrSocialAppIOSTests.swift */; };
 		03E0C0A42A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */; };
 		03E0C0A62A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */; };
+		2B3C48F32A669F820087202E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C48F22A669F820087202E /* AppCoordinator.swift */; };
 		5D0D7BB2481E17375E74B3C1 /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63DDD5F797D750467BC741F /* Pods_KlivvrSocialAppIOS_KlivvrSocialAppIOSUITests.framework */; };
 		6F3F0D3ABA57579EF5C6D419 /* Pods_KlivvrSocialAppIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */; };
 		8A92C9A45C6F48C63B4AF286 /* Pods_KlivvrSocialAppIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */; };
@@ -56,6 +57,7 @@
 		03E0C09F2A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlivvrSocialAppIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0C0A32A5AF64A00B4402F /* KlivvrSocialAppIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITests.swift; sourceTree = "<group>"; };
 		03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlivvrSocialAppIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B3C48F22A669F820087202E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		42B845C96475E5D9726DDFE3 /* Pods-KlivvrSocialAppIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlivvrSocialAppIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-KlivvrSocialAppIOSTests/Pods-KlivvrSocialAppIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AB8C633261DA7B48C5E7A1F /* Pods_KlivvrSocialAppIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6D5157C1022771BC2CDC14 /* Pods_KlivvrSocialAppIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlivvrSocialAppIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,12 @@
 		0392C5742A5C131A002E5684 /* KlivvrFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				0392C57A2A5C1416002E5684 /* Configuration */,
+				0392C57B2A5C142D002E5684 /* Core */,
+				0392C57F2A5C1533002E5684 /* Externals   */,
+				0392C5832A5C15B0002E5684 /* Resources */,
+				2B3C48ED2A669EC90087202E /* SupportingFiles */,
+				2B3C48EF2A669EEC0087202E /* Extension */,
 				0392C5772A5C1371002E5684 /* Components */,
 			);
 			path = KlivvrFoundation;
@@ -106,22 +114,8 @@
 		0392C5772A5C1371002E5684 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				0392C5842A5C15CF002E5684 /* SupportingFiles */,
-				0392C5832A5C15B0002E5684 /* Resources */,
-				0392C57F2A5C1533002E5684 /* Externals   */,
-				0392C57C2A5C143F002E5684 /* Extension */,
-				0392C57B2A5C142D002E5684 /* Core */,
-				0392C57A2A5C1416002E5684 /* Configuration */,
-				0392C5782A5C13E3002E5684 /* KlivvrButton */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		0392C5782A5C13E3002E5684 /* KlivvrButton */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = KlivvrButton;
 			sourceTree = "<group>";
 		};
 		0392C57A2A5C1416002E5684 /* Configuration */ = {
@@ -141,51 +135,14 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		0392C57C2A5C143F002E5684 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				0392C57E2A5C14EF002E5684 /*  Utils */,
-				0392C57D2A5C14D3002E5684 /* Ui */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		0392C57D2A5C14D3002E5684 /* Ui */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Ui;
-			sourceTree = "<group>";
-		};
-		0392C57E2A5C14EF002E5684 /*  Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = " Utils";
-			sourceTree = "<group>";
-		};
 		0392C57F2A5C1533002E5684 /* Externals   */ = {
 			isa = PBXGroup;
 			children = (
+				2B3C48EB2A669EAE0087202E /* DataManager */,
+				2B3C48EA2A669E8D0087202E /* Coordinator */,
 				0392C5822A5C1588002E5684 /* DataNetwork */,
-				0392C5812A5C1584002E5684 /* DataManager */,
-				0392C5802A5C1574002E5684 /* Coordinator */,
 			);
 			path = "Externals  ";
-			sourceTree = "<group>";
-		};
-		0392C5802A5C1574002E5684 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		0392C5812A5C1584002E5684 /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataManager;
 			sourceTree = "<group>";
 		};
 		0392C5822A5C1588002E5684 /* DataNetwork */ = {
@@ -206,108 +163,6 @@
 				03E0C08B2A5AF64900B4402F /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0392C5842A5C15CF002E5684 /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				0392C5852A5C15D5002E5684 /* Helper */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		0392C5852A5C15D5002E5684 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		0392C5862A5C15F6002E5684 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				0392C5872A5C1648002E5684 /* Launch */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		0392C5872A5C1648002E5684 /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				0392C5882A5C1682002E5684 /* OnBoarding */,
-				0392C5892A5C169A002E5684 /* Authentication */,
-			);
-			path = Launch;
-			sourceTree = "<group>";
-		};
-		0392C5882A5C1682002E5684 /* OnBoarding */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = OnBoarding;
-			sourceTree = "<group>";
-		};
-		0392C5892A5C169A002E5684 /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				0392C58F2A5C16FA002E5684 /* Home */,
-				0392C5902A5C16FF002E5684 /* Profile */,
-				0392C58E2A5C16F4002E5684 /* Register */,
-				0392C58A2A5C16B1002E5684 /* Login */,
-			);
-			path = Authentication;
-			sourceTree = "<group>";
-		};
-		0392C58A2A5C16B1002E5684 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				0392C58D2A5C16CA002E5684 /* Presenter */,
-				0392C58C2A5C16C1002E5684 /* View */,
-				0392C58B2A5C16B8002E5684 /* Model */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		0392C58B2A5C16B8002E5684 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0392C58C2A5C16C1002E5684 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0392C58D2A5C16CA002E5684 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		0392C58E2A5C16F4002E5684 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		0392C58F2A5C16FA002E5684 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		0392C5902A5C16FF002E5684 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		03E0C0732A5AF64600B4402F = {
@@ -336,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				0392C5742A5C131A002E5684 /* KlivvrFoundation */,
-				0392C5862A5C15F6002E5684 /* Modules */,
+				2B3C48F42A669FEC0087202E /* Modules */,
 			);
 			path = KlivvrSocialAppIOS;
 			sourceTree = "<group>";
@@ -356,6 +211,74 @@
 				03E0C0A52A5AF64A00B4402F /* KlivvrSocialAppIOSUITestsLaunchTests.swift */,
 			);
 			path = KlivvrSocialAppIOSUITests;
+			sourceTree = "<group>";
+		};
+		2B3C48EA2A669E8D0087202E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C48F22A669F820087202E /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2B3C48EB2A669EAE0087202E /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2B3C48ED2A669EC90087202E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C48EE2A669ED70087202E /* Helper */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2B3C48EE2A669ED70087202E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2B3C48EF2A669EEC0087202E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C48F12A669EF80087202E /* Utils */,
+				2B3C48F02A669EF30087202E /* UI */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2B3C48F02A669EF30087202E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B3C48F12A669EF80087202E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2B3C48F42A669FEC0087202E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C48F52A669FF30087202E /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2B3C48F52A669FF30087202E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		68A7F1399E54E71E9034E04C /* Frameworks */ = {
@@ -378,7 +301,6 @@
 				42B845C96475E5D9726DDFE3 /* Pods-KlivvrSocialAppIOSTests.debug.xcconfig */,
 				A6C8BBE492ADCE00399D7E23 /* Pods-KlivvrSocialAppIOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -626,6 +548,7 @@
 				035A6AC02A5EB3970044EE11 /* NetworkError.swift in Sources */,
 				035A6ABC2A5EB24B0044EE11 /* Endpoint.swift in Sources */,
 				03E0C0822A5AF64700B4402F /* SceneDelegate.swift in Sources */,
+				2B3C48F32A669F820087202E /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,7 +719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KlivvrSocialAppIOS/KlivvrFoundation/Components/Configuration/Info.plist;
+				INFOPLIST_FILE = KlivvrSocialAppIOS/KlivvrFoundation/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -824,7 +747,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KlivvrSocialAppIOS/KlivvrFoundation/Components/Configuration/Info.plist;
+				INFOPLIST_FILE = KlivvrSocialAppIOS/KlivvrFoundation/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
